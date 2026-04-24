@@ -103,6 +103,6 @@ networks:
     ipam:
       config:
         - subnet: 172.30.0.0/16
-          gateway: 172.20.0.1
+          gateway: 172.30.0.1
     driver_opts:
       com.docker.network.driver.mtu: 1350
